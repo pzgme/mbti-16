@@ -1,0 +1,17 @@
+/* 全局键盘焦点：浏览器默认 1px 轮廓在小屏上不易辨识 */
+:where(button, a[href], input, [tabindex]):focus-visible {
+  outline: 2px solid #0f6e56;
+  outline-offset: 2px;
+}
+
+/* 尊重系统的「减少动态效果」偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

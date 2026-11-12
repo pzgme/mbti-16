@@ -1,0 +1,57 @@
+第三方来源与许可声明
+======================
+
+一、题库结构（题目顺序、id、domain、facet、keyed 字段）
+
+  b5-johnson-120-ipip-neo-pi-r
+  https://github.com/Alheimsins/b5-johnson-120-ipip-neo-pi-r
+  Copyright (c) 2017 Geir Gåsodden
+  License: MIT
+
+  MIT License
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  本项目保留原始文件于 src/data/_upstream.questions.json 与
+  src/data/_upstream.choices.cjs，转换逻辑见 scripts/build-questions.mjs。
+  （该文件为 CommonJS，故使用 .cjs 扩展名以避开项目 "type": "module"。）
+  本项目改写后的选项标签（非常不符合 / 不太符合 / 一般 / 比较符合 /
+  非常符合）为独立 UI 文案，与上游选项分数表数值等价。
+
+二、题目文字
+
+  International Personality Item Pool (IPIP)
+  https://ipip.ori.org/
+
+  IPIP 官方声明其 items 与 scales 属于公共领域（public domain），
+  允许复制、修改、翻译并用于任何目的，无需申请许可或支付费用。
+  中文译文来自上游仓库 zh-cn 数据（译者 Roy Jia），简化中文字形。
+  IPIP 官网提示：各语言译本的准确性未经 IPIP 项目方验证，使用前应自行核查。
+
+  量表依据：Johnson, J. A. (2014). Measuring thirty facets of the Five
+  Factor Model with a 120-item public domain inventory. Journal of Research
+  in Personality, 51, 78-89.
+
+三、重要声明
+
+  本项目使用的是 IPIP 大五量表，不是官方 MBTI® 量表。
+  官方 MBTI® 为 The Myers-Briggs Company 的版权产品，本项目未使用、
+  未复制其任何题目、报告或常模。
+  四字母结果仅为四维近似倾向映射，不得宣称等价于 MBTI，
+  不得用于招聘筛选、人事评估或临床诊断。
